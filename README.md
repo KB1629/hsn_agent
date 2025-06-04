@@ -89,7 +89,7 @@ hsn-agent/
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/hsn-agent.git
+   git clone https://github.com/KB1629/hsn_agent.git
    cd hsn-agent
    ```
 
