@@ -1,0 +1,36 @@
+# Which model the LLM invocations should use
+model: "${{ env:MODEL }}"
+
+# A single tool for the UI to expose.
+tools:
+  - name: validate_hsn_code
+    description: |
+      HSN Code Validation and Suggestion Agent
+      
+      This agent can perform two main functions:
+      1. VALIDATE: Check if one or more comma-separated HSN codes are valid
+      2. SUGGEST: Suggest HSN codes based on product/service descriptions
+      
+      For validation: If a code is invalid, the nearest valid ancestor (by truncating 
+      on the right) is returned along with detailed error information.
+      
+      For suggestions: The agent analyzes product descriptions and returns relevant 
+      HSN codes with confidence scores.
+    parameters:
+      type: object
+      properties:
+        query:
+          type: string
+          description: |
+            For validation: One or more HSN codes separated by commas (e.g. "17019930, 01, 0101")
+            For suggestion: Product or service description (e.g. "live horses for breeding")
+        action:
+          type: string
+          enum: ["validate", "suggest"]
+          default: "validate"
+          description: |
+            Choose the action to perform:
+            - "validate": Validate HSN codes
+            - "suggest": Suggest HSN codes based on description
+      required: [query]
+
