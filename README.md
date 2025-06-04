@@ -151,7 +151,7 @@ print(result)
 python demo.py
 ```
 
-## 📸 Screenshots
+##  Screenshots
 
 ### Application Interface
 
@@ -257,23 +257,23 @@ code,description
 ...
 ```
 
-## 📋 Submission Requirements
+##  Submission Requirements
 
 This project fulfills all specified requirements:
 
-### ✅ Technical Requirements
+###  Technical Requirements
 - **Google ADK Integration**: Built exclusively using Google ADK framework
 - **BaseAgent Implementation**: Proper inheritance and ADK compliance
 - **Asynchronous Support**: Full async/await implementation for web interface
 - **Professional Structure**: Clean, modular, and well-documented codebase
 
-### ✅ Functional Requirements
+###  Functional Requirements
 - **HSN Code Validation**: Format, existence, and hierarchical validation
 - **Product Description Suggestions**: AI-powered HSN code recommendations
 - **Batch Processing**: Multiple code validation in single request
 - **Error Handling**: Comprehensive error management and user feedback
 
-### ✅ Evaluation Criteria
+###  Evaluation Criteria
 - **Accuracy**: 99.9% validation accuracy against 21K+ HSN codes
 - **Performance**: Sub-second response times for most queries
 - **Usability**: Intuitive web interface with clear documentation
