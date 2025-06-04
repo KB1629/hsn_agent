@@ -6,7 +6,7 @@
 
 > A comprehensive HSN (Harmonized System of Nomenclature) Code Validation and Suggestion Agent built using Google's ADK (Agent Developer Kit) Framework.
 
-## 📋 Table of Contents
+##  Table of Contents
 
 - [Overview](#overview)
 - [Features](#features)
@@ -22,41 +22,41 @@
 - [Contributing](#contributing)
 - [License](#license)
 
-## 🎯 Overview
+##  Overview
 
 The HSN Code Validation and Suggestion Agent is a production-ready solution that provides:
 
-- **🔍 HSN Code Validation**: Format, existence, and hierarchical correctness verification
-- **💡 Intelligent Suggestions**: AI-powered HSN code recommendations based on product descriptions
-- **🌐 Web Interface**: Google ADK-powered interactive web application
-- **⚡ Batch Processing**: Handle multiple codes simultaneously
-- **📊 Detailed Analytics**: Confidence scores and comprehensive error reporting
+- ** HSN Code Validation**: Format, existence, and hierarchical correctness verification
+- ** Intelligent Suggestions**: AI-powered HSN code recommendations based on product descriptions
+- ** Web Interface**: Google ADK-powered interactive web application
+- ** Batch Processing**: Handle multiple codes simultaneously
+- ** Detailed Analytics**: Confidence scores and comprehensive error reporting
 
 This agent serves businesses, customs officials, and trade professionals working with international trade classifications, ensuring accurate HSN code usage for customs, taxation, and regulatory compliance.
 
-## ✨ Features
+##  Features
 
-### 🔍 Validation Capabilities
+###  Validation Capabilities
 - **Format Validation**: Ensures codes are 2-8 digit numeric values
 - **Existence Verification**: Validates against 21,582 HSN codes database
 - **Hierarchical Validation**: Suggests parent codes when exact matches fail
 - **Batch Processing**: Validates multiple comma-separated codes
 - **Error Analysis**: Provides specific error messages and suggestions
 
-### 💡 Suggestion Engine
+###  Suggestion Engine
 - **Text Similarity Matching**: Advanced text processing for product descriptions
 - **Confidence Scoring**: Percentage-based confidence levels (0-100%)
 - **Multiple Suggestions**: Returns top 5 most relevant HSN codes
 - **Keyword Intelligence**: Smart parsing of product descriptions
 - **Fallback Mechanisms**: Handles edge cases and ambiguous queries
 
-### 🌐 Web Interface
+###  Web Interface
 - **Google ADK Integration**: Professional web-based user interface
 - **Real-time Processing**: Instant validation and suggestion results
 - **Responsive Design**: Works on desktop and mobile devices
 - **Error Handling**: User-friendly error messages and guidance
 
-## 🏗 Architecture
+##  Architecture
 
 ```
 hsn-agent/
@@ -71,7 +71,7 @@ hsn-agent/
 └── README.md                # Project documentation
 ```
 
-### 🔧 Technical Stack
+### Technical Stack
 - **Framework**: Google ADK (Agent Developer Kit)
 - **Backend**: Python 3.8+
 - **Database**: CSV-based HSN codes (21,582 entries)
@@ -79,7 +79,7 @@ hsn-agent/
 - **Web Server**: ADK built-in server
 - **Testing**: Python unittest framework
 
-## 🚀 Installation
+##  Installation
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -111,7 +111,7 @@ hsn-agent/
 5. **Access the application:**
    Open your browser and navigate to: `http://localhost:8000/dev-ui/?app=hsn_agent`
 
-## 💻 Usage
+##  Usage
 
 ### Web Interface (Recommended)
 
@@ -191,7 +191,7 @@ python demo.py
 #### Multiple Suggestions with Confidence
 *Add screenshot showing top 5 suggestions with confidence scores*
 
-## 📚 API Reference
+##  API Reference
 
 ### Validation Response Format
 ```json
@@ -238,28 +238,28 @@ python test_agent.py
 ```
 
 ### Test Coverage
-- ✅ Format validation edge cases
-- ✅ Database existence verification
-- ✅ Hierarchical validation logic
-- ✅ Suggestion algorithm accuracy
-- ✅ Error handling robustness
-- ✅ ADK integration compliance
-- ✅ Batch processing functionality
+- Format validation edge cases
+-  Database existence verification
+- Hierarchical validation logic
+-  Suggestion algorithm accuracy
+- Error handling robustness
+-  ADK integration compliance
+-  Batch processing functionality
 
 ### Test Results Example
 ```
 Running HSN Agent Tests...
 
-✅ Format Validation Tests: 8/8 passed
-✅ Existence Validation Tests: 6/6 passed
-✅ Hierarchical Validation Tests: 4/4 passed
-✅ Suggestion Tests: 5/5 passed
-✅ Error Handling Tests: 3/3 passed
+ Format Validation Tests: 8/8 passed
+ Existence Validation Tests: 6/6 passed
+ Hierarchical Validation Tests: 4/4 passed
+ Suggestion Tests: 5/5 passed
+ Error Handling Tests: 3/3 passed
 
-🎉 All 26 tests passed successfully!
+ All 26 tests passed successfully!
 ```
 
-## 📊 Database
+##  Database
 
 ### HSN Codes Database
 - **Total Codes**: 21,582 HSN codes
@@ -299,7 +299,7 @@ This project fulfills all specified requirements:
 - **Usability**: Intuitive web interface with clear documentation
 - **Robustness**: Handles edge cases, invalid inputs, and error scenarios
 
-### ✅ Deliverables
+###  Deliverables
 - **Codebase**: Well-structured GitHub repository
 - **Documentation**: Comprehensive README with examples
 - **Testing**: Complete unit test suite
@@ -347,7 +347,7 @@ Input: "wheat flour and grains"
 Output: Food and agriculture classifications
 ```
 
-## 🤝 Contributing
+##  Contributing
 
 We welcome contributions! Please follow these guidelines:
 
@@ -357,11 +357,11 @@ We welcome contributions! Please follow these guidelines:
 4. Ensure all tests pass
 5. Submit a pull request
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🏆 Acknowledgments
+##  Acknowledgments
 
 - **Google ADK Team**: For providing the excellent Agent Developer Kit framework
 - **Trade Classification Authorities**: For maintaining comprehensive HSN code databases
@@ -369,6 +369,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**🚀 Built with Google's Agent Developer Kit (ADK) Framework**
+** Built with Google's Agent Developer Kit (ADK) Framework**
 
 *For questions, issues, or contributions, please visit our [GitHub repository](https://github.com/yourusername/hsn-agent).* 
