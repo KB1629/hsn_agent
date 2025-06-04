@@ -13,7 +13,7 @@
 - [Architecture](#architecture)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Screenshots](#screenshots)
+- [Screenshots](#Screenshots)
 - [API Reference](#api-reference)
 - [Testing](#testing)
 - [Database](#database)
@@ -156,40 +156,20 @@ python demo.py
 ### Application Interface
 
 #### Web Interface - Home Page
-*Add screenshot of the main ADK web interface here*
+![image](https://github.com/user-attachments/assets/381f31af-f528-46e4-9ba2-0cbf8babf3ca)
 
 #### HSN Code Validation
-*Add screenshot showing validation results for multiple codes*
+![image](https://github.com/user-attachments/assets/ae397e51-eb8d-4f43-9023-607cf2604ba1)
 
 #### HSN Code Suggestions
-*Add screenshot showing suggestion results with confidence scores*
-
-#### Error Handling
-*Add screenshot showing error messages and guidance*
-
-### Command Line Interface
-
-#### Demo Script Output
-*Add screenshot of demo.py execution results*
-
-#### Test Suite Results
-*Add screenshot of test_agent.py execution*
-
-### Validation Examples
-
-#### Valid Codes Results
-*Add screenshot showing successful validation of valid HSN codes*
+![image](https://github.com/user-attachments/assets/f171f91a-80e7-43a1-95d8-f8122d7605ca)
 
 #### Invalid Codes Results
-*Add screenshot showing validation errors and parent suggestions*
-
-### Suggestion Examples
+![image](https://github.com/user-attachments/assets/3161f3f0-1077-4cbb-aa3e-d69d4ff27185)
 
 #### Product Description Suggestions
-*Add screenshot showing suggestions for "live animals"*
+![image](https://github.com/user-attachments/assets/6c22ebda-48ea-4603-9cc1-19035f0f8456)
 
-#### Multiple Suggestions with Confidence
-*Add screenshot showing top 5 suggestions with confidence scores*
 
 ##  API Reference
 
